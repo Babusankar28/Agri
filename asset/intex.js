@@ -58,16 +58,16 @@ function init() {
     obj = ` <h1 class="display-5 p-3 h1">Output</h1>
             <div class="bg-white px-3 py-2"> 
                     <p>
-                        job_points_km        : <span class="text-primary">${job_points_km}</span><br>
-                        job_entry_acceptable :  <span class="text-primary">${job_entry_acceptable}</span><br>
+                        Job card points km     : <span class="text-primary">${job_points_km}</span><br>
+                        Job card entry + acceptable excess km :  <span class="text-primary">${job_entry_acceptable}</span><br>
                         deviation: <span class="text-primary">${deviation}</span><br>
                         <span class="text-primary">${con}</span><br>
                         <hr>
-                        transport_cost :  <span class="text-primary">${transport_cost}</span><br>
-                        phone_call :  <span class="text-primary">${phone_call}</span><br>
-                        bottle_payment :  <span class="text-primary">${bottle_payment} </span><br>
-                        total_loading_payment:  <span class="text-primary">${total_loading_payment} </span><br>
-                        total_unloading_payment :  <span class="text-primary">${total_unloading_payment}</span>
+                        Transport cost in Rupees :  Rs.<span class="text-primary">${transport_cost}</span><br>
+                        Total cost for phone calls : Rs. <span class="text-primary">${phone_call}</span><br>
+                        Bottle payment cost :  Rs.<span class="text-primary">${bottle_payment} </span><br>
+                        Total loading payment: Rs. <span class="text-primary">${total_loading_payment} </span><br>
+                        Total unloading payment :Rs.  <span class="text-primary">${total_unloading_payment}</span>
                     </p>
             </div>`;
 }
@@ -106,4 +106,5 @@ function calculation() {
     total_unloading_payment=parseInt(unloading.value)*2.4;
 
 }
+
 
