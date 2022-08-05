@@ -1,0 +1,32 @@
+let actualKM = document.getElementById('actual_km');  a
+let job_cards_entry = document.getElementById('job_cards_entry'); b
+let job_Card = document.getElementById('job_Card'); c
+let diesel_cost = document.getElementById('diesel_cost'); g
+let dispatch_create_count = document.getElementById('dispatch_create_count'); j
+let return_create_count = document.getElementById('return_create_count'); k
+let dispatch_cell_count = document.getElementById('dispatch_cell_count'); m
+let return_cell_count = document.getElementById('return_cell_count');n
+let pp = document.getElementById('pp'); p
+let rgp = document.getElementById('rgp'); r
+let case_500 = document.getElementById('case_500'); t
+let case_250 = document.getElementById('case_250'); v
+let unloading = document.getElementById('unloading'); y
+
+
+
+let job_points_km; f  f=c*6
+let job_entry_acceptable; d d=b+f
+let deviation; e e=a-d;
+let transport_cost; h h=0.65*g*d;
+let phone_call; i i=c*1;
+let bottle_payment; l l=(j-k)*72
+let cell_payment; o o=(m-n)*52
+let total_loading_payment; x x=q+s+u+w
+let total_unloading_payment;
+
+
+let q; q=p*2.20
+let s; s=r*2.40
+let u; u=t*2.40
+let w; w=v*1.20
+
